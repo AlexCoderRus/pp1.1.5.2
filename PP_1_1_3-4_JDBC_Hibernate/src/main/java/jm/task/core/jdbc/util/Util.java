@@ -13,7 +13,7 @@ import java.util.Properties;
 public class Util {
     private static final String URL = "jdbc:mysql://localhost:3306/myfirstsql_test";
     private static final String USER = "root";
-    private static final String PASSWORD = "Rhenbpyfpdjybn1996";
+    private static final String PASSWORD = "root";
     private static SessionFactory sessionFactory;
     public static SessionFactory getSessionFactory() {
         if (sessionFactory == null) {

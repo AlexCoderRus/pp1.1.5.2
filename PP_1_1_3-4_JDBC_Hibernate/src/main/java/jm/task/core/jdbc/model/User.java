@@ -22,14 +22,6 @@ public class User {
 
     }
 
-    @Override
-    public String toString() {
-        return getClass().getSimpleName() + "{id: " + id
-                + ", name: " + name
-                + ", lastName: " + lastName
-                + ", age: " + age;
-    }
-
     public User(String name, String lastName, Byte age) {
         this.name = name;
         this.lastName = lastName;
@@ -66,5 +58,13 @@ public class User {
 
     public void setAge(Byte age) {
         this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return getClass().getSimpleName() + "{id: " + id
+                + ", name: " + name
+                + ", lastName: " + lastName
+                + ", age: " + age;
     }
 }
